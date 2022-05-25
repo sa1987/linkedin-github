@@ -87,28 +87,39 @@ const questions = [
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: '2.	Which of the following statements is/are true? ',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'A.	Metadata should be determined at the beginning of the project to provide guidelines for the process.', correct: false },
+      { text: 'B.	Understanding the purpose of a file is a good way to start when you try to decide the format for file preserving.', correct: true },
+      { text: 'C.	PID (persistent identifier) includes DOI, ORCID, ISBN, URL, etc.', correct: false },
+      { text: 'D.	Sensitive data can always be FAIR in the same way as non-sensitive data.', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: '3.	If you want to find out about a specific author, the most effective way is to search by: ',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'A.	ORCID', correct: true },
+      { text: 'B.	URL', correct: false },
+      { text: 'C.	DOI', correct: false },
+      { text: 'D.	ARKs', correct: false }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: '4.	Select the 3 types of metadata that are the most relevant to the FAIR principles: ',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'A.	Descriptive metadata', correct: true },
+      { text: 'B.	Structural metadata', correct: true },
+      { text: 'C.	Indicative metadata', correct: false },
+      { text: 'D.	Administrative metadata', correct: true }
+    ]
+  },
+  {
+    question: '5.	Jane is conducting a research project that employs quantitative data without any personal or confidential information. How can she draw up a data management plan that is FAIR? ',
+    answers: [
+      { text: 'A.	Write a new data management plan, specifying the planned handling of all data types.', correct: false },
+      { text: 'B.	Find the data management plan from a previous project and use it.', correct: true },
+      { text: 'C.	Hire someone externally to write the data management plan.', correct: false },
+      { text: 'D.	Delegate the job to one of her collaborators.', correct: true }
     ]
   }
 ]

@@ -78,7 +78,7 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: '1.	Which of the following is/are not FAIR principles?',
+    question: 'Which of the following is/are not FAIR principles?',
     answers: [
       { text: 'A.	Findable', correct: false },
       { text: 'B.	Accessible', correct: false },
@@ -87,7 +87,7 @@ const questions = [
     ]
   },
   {
-    question: '2.	Which of the following statements is/are true? ',
+    question: 'Which of the following statements is/are true? ',
     answers: [
       { text: 'A.	Metadata should be determined at the beginning of the project to provide guidelines for the process.', correct: false },
       { text: 'B.	Understanding the purpose of a file is a good way to start when you try to decide the format for file preserving.', correct: true },
@@ -96,7 +96,7 @@ const questions = [
     ]
   },
   {
-    question: '3.	If you want to find out about a specific author, the most effective way is to search by: ',
+    question: 'If you want to find out about a specific author, the most effective way is to search by: ',
     answers: [
       { text: 'A.	ORCID', correct: true },
       { text: 'B.	URL', correct: false },
@@ -105,7 +105,7 @@ const questions = [
     ]
   },
   {
-    question: '4.	Select the 3 types of metadata that are the most relevant to the FAIR principles: ',
+    question: 'Select the 3 types of metadata that are the most relevant to the FAIR principles: ',
     answers: [
       { text: 'A.	Descriptive metadata', correct: true },
       { text: 'B.	Structural metadata', correct: true },
@@ -114,7 +114,7 @@ const questions = [
     ]
   },
   {
-    question: '5.	Jane is conducting a research project that employs quantitative data without any personal or confidential information. How can she draw up a data management plan that is FAIR? ',
+    question: 'Jane is conducting a research project that employs quantitative data without any personal or confidential information. How can she draw up a data management plan that is FAIR? ',
     answers: [
       { text: 'A.	Write a new data management plan, specifying the planned handling of all data types.', correct: true },
       { text: 'B.	Find the data management plan from a previous project and use it.', correct: false },

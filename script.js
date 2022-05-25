@@ -78,10 +78,12 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: '1.	Which of the following is/are not FAIR principles?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'A.	Findable', correct: false },
+      { text: 'B.	Accessible', correct: false },
+      { text: 'C.	Identifiable', correct: true },
+      { text: 'D.	Reproducible', correct: true }
     ]
   },
   {

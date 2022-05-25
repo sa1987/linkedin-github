@@ -116,10 +116,10 @@ const questions = [
   {
     question: '5.	Jane is conducting a research project that employs quantitative data without any personal or confidential information. How can she draw up a data management plan that is FAIR? ',
     answers: [
-      { text: 'A.	Write a new data management plan, specifying the planned handling of all data types.', correct: false },
-      { text: 'B.	Find the data management plan from a previous project and use it.', correct: true },
+      { text: 'A.	Write a new data management plan, specifying the planned handling of all data types.', correct: true },
+      { text: 'B.	Find the data management plan from a previous project and use it.', correct: false },
       { text: 'C.	Hire someone externally to write the data management plan.', correct: false },
-      { text: 'D.	Delegate the job to one of her collaborators.', correct: true }
+      { text: 'D.	Delegate the job to one of her collaborators.', correct: false }
     ]
   }
 ]
